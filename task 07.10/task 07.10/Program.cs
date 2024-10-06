@@ -26,6 +26,7 @@
 //    }
 //} 
 #endregion
+#region max,min
 //using System.Security.Cryptography;
 
 //int[] arr = { 7, 9, 10, 15, 20 };
@@ -49,7 +50,8 @@
 //    }
 //}
 //Console.WriteLine(max);
-//Console.WriteLine(min);
+//Console.WriteLine(min); 
+#endregion
 #region ededin reqenmleri cemi
 //byte num= 167;
 //int vuruq= 1;
