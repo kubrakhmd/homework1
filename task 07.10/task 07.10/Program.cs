@@ -26,32 +26,31 @@
 //    }
 //} 
 #endregion
-#region max,min
 //using System.Security.Cryptography;
 
 //int[] arr = { 7, 9, 10, 15, 20 };
 //int max = arr [0];
 //int min = arr [0];
+//int maxIndex=0;
+//int minIndex=0;
 //for (int i = 0; i < arr.Length; i++)
 //{
 //    if (arr[i] > max)
 //    {
 //        max = arr[i];
 //        arr[i] = max;
-
+//        maxIndex=i;
 //    }
 //    for (int j = 0; j < arr.Length; j++)
 //    {
 //        if (arr[j] < min)
 //        {
 //            min = arr[j];
-
+//           minIndex=j;
 //        }
 //    }
 //}
-//Console.WriteLine(max);
-//Console.WriteLine(min); 
-#endregion
+//Console.WriteLine("en boyuk indexli eded" + maxIndex );
 #region ededin reqenmleri cemi
 //byte num= 167;
 //int vuruq= 1;
@@ -68,6 +67,21 @@
 //Console.WriteLine(cem);
 
 #endregion
+
+using System.Runtime.InteropServices;
+
+///Console.WriteLine("en kicik indexli eded:" + minIndex);
+
+Console.WriteLine("eksik olan eded");
+int[] arr = { 2, 1, 3, 5, 4, 8, 7, 9, 6 };
+int sum1 = 55;
+int sum2 = 0;
+for (int i = 0; i < arr.Length; i++)
+{
+    sum2+= arr[i];
+}
+int missingNum=sum1-sum2;
+Console.WriteLine( missingNum );
 
 
 
